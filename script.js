@@ -188,14 +188,14 @@ window.addEventListener("load",function(){
                     //show the result
                     if(finalResult>=60){
                         final.classList.add("success");
-                        final.innerHTML=`<p>Congratulations ${dropDown.value}.<p>`;
+                        final.innerHTML=`<p>Congratulations ${dropDown.value}.</p>`;
                     }
                     else{
                         final.classList.add("failure");
-                        final.innerHTML=`<p>Sorry ${dropDown.value}.<p>`;
+                        final.innerHTML=`<p>Sorry ${dropDown.value}.</p>`;
                     }
 
-                    final.innerHTML+=`<p>Your Result is ${finalResult}%<p>`;
+                    final.innerHTML+=`<p>Your Result is ${finalResult}%</p>`;
                     
                 }//end of endExam function
             
