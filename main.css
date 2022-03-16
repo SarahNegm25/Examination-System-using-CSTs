@@ -1,0 +1,107 @@
+#header{
+    background-color: beige;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header_fonts{
+    display: inline; 
+    font-size: xx-large; 
+    color:rgb(48, 38, 138);
+}
+
+.fix{
+    margin: auto;
+    margin-top: 30px;
+    padding: 5%;
+    width:fit-content;
+    height:fit-content;
+    background-color: rgb(48, 38, 138);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+select[name=names_menu]{
+    width: 100%; 
+    margin-bottom: 20px; 
+    background-color: beige; 
+    color: rgb(48, 38, 138); 
+    font-size: xx-large;
+}
+
+#Start{
+  background-color: beige;
+  color: rgb(48, 38, 138);
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  border-radius: 10%;
+  border-color: beige;
+  align-self: center;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+.choice_style{
+    color: beige; 
+    font-size:xx-large;
+}
+
+.choice_style:hover{
+    background-color: beige;
+    color:rgb(48, 38, 138);
+}
+
+.navigator_button{
+    background-color: beige;
+    color: rgb(48, 38, 138);
+    padding: 5px;
+    margin: 40px;
+    margin-bottom: 10px;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 10%;
+    border-color: beige;
+    align-self: center;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#navigators{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.success{
+    background-color: beige;
+    color: green;
+    font-size: xx-large;
+    padding:10%;
+    width: max-content;
+    height: fit-content;
+}
+
+.failure{
+    background-color: beige;
+    color: red;
+    font-size: xx-large;
+    padding:10%;
+    width: max-content;
+    height: fit-content;
+}
+
