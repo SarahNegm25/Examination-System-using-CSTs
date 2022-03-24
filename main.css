@@ -105,3 +105,6 @@ select[name=names_menu]{
     height: fit-content;
 }
 
+body{
+background-color: rgb(48, 38, 138);
+}
